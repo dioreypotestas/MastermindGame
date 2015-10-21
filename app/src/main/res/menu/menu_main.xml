@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/Menu"
+        android:orderInCategory="100"
+        android:title="..."
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/newGame"
+                android:orderInCategory="100"
+                android:title="New Game"
+                app:showAsAction="always"
+                android:icon="@drawable/new_game"/>
+            <item
+                android:id="@+id/instructionPage"
+                android:orderInCategory="100"
+                android:title="How to Play!"
+                app:showAsAction="always"
+                android:icon="@drawable/how_play"/>
+            <item
+                android:id="@+id/closeApp"
+                android:orderInCategory="100"
+                android:title="Close App"
+                app:showAsAction="always"
+                android:icon="@drawable/close"/>
+                    </menu>
+    </item>
+</menu>
